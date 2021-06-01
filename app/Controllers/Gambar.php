@@ -10,7 +10,7 @@ class Gambar extends BaseController
 	}
     
     function edit() {
-		echo "<h1>Borang untuk edit di sini</h1>";
+		echo "<h1>Borang untuk editdd di sini</h1>";
 	}
 
 	function add() {
