@@ -1,7 +1,9 @@
 footer {
     background-color: rgb(93, 93, 93);
-    color: #fff;
+    color:white;
     margin-top: 100px;
+    position: absolute;
+    bottom: 0;
 }
 
 .gambar-pekan {
@@ -43,4 +45,8 @@ footer {
     background-color: rgb(66, 66, 66);
 
 
+}
+
+.yut{
+    background-color: aqua;
 }

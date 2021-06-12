@@ -52,13 +52,13 @@
     <!-- gallery -->
     <div class="row">
 
-        <?php foreach($all_pekan as $pekan ) : ?>
+        <?php foreach($list_of_city as $city ) : ?>
             <div class="col-12 col-sm-6 col-md-4  col-lg-3 mt-3">
                 <div class="card">
-                    <img src="<?php echo $pekan['gambar']?>" class="card-img-top" alt="...">
+                    <img src="/img/<?php echo $city["photo_path"] ?>" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5><?php echo $pekan['nama'];?></h5>
-                    <p class="card-text"><?php echo $pekan['description']; ?></p>
+                        <h5><?php echo $city["name"] ?></h5>
+                    <p class="card-text"><?php echo $city["description"] ?></p>
                     </div>
                 </div>
             </div>

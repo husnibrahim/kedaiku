@@ -33,7 +33,8 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
-
+$routes->post('/gambar/add', 'Gambar::save_new_data');
+$routes->post('/gambar/edit/(:num)', 'Gambar::edit_data/$1');
 /*
  * --------------------------------------------------------------------
  * Additional Routing
